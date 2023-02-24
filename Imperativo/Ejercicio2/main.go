@@ -36,13 +36,15 @@ func main() {
 
 Se imprime una figura apartir de puntos impares.
 
-	 *
+     *
    * * *
  * * * * *
    * * *
-	 *
+     *
 
 
 Process finished with the exit code 0
+
+
 
 */
