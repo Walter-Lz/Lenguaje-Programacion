@@ -18,8 +18,24 @@ func ContarCaracteres(Cadena string) (string, int, string, int, string, int) {
 }
 
 func main() {
-	fmt.Println(ContarCaracteres("Hoy es viernes."))
-
+	fmt.Println("Primera Cadena.")
+	fmt.Println(ContarCaracteres("Hoy es domingo."))
+	fmt.Println("\nSegunda Cadena.")
 	fmt.Println(ContarCaracteres("Hoy juega la seleccion de Costa Rica."))
 
 }
+
+/*   -- Código en Ejecución --
+
+Primera Cadena.
+El numero de caracteres es:  15
+Cantidad de palabras:  3
+Cantidad de Lineas:  1
+
+Segunda Cadena.
+El numero de caracteres es:  37
+Cantidad de palabras:  7
+Cantidad de Lineas:  1
+
+Process finished with the exit code 0
+*/
